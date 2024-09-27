@@ -10,6 +10,8 @@ def temperature_converter():
             break
         else:
             print("Invalid. Please input 1 or 2.")
+    
+    temp = float(input("Input temperature: "))
 
 temperature_converter()
 # method for selecting the convertion type
